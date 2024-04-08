@@ -1,0 +1,21 @@
+.box1, .box2{
+    height: 50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+
+}
+.box1{
+    background: #f6a6eb;
+    color: black;
+}
+.box2{
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+span{
+    margin-left: 30px;
+    font-size: 20px;
+    text-align: center;
+}

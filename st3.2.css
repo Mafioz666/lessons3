@@ -1,0 +1,29 @@
+html{
+    scroll-behavior: smooth;
+}
+#box1, #box2, #box3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#box1{
+    background: #f12863;
+}
+#box2{
+    background: rgba(217, 206, 22, 0.9);
+}
+#box3{
+    background: rgb(51, 180, 57);
+}
+a{
+    font-size: 75px;
+    color: black;
+    text-decoration: 0;
+}
+p{
+    margin: 60px;
+    font-size: 20px;
+    text-align: center;
+}

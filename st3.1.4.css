@@ -1,0 +1,39 @@
+header{
+    height: 15vh;
+    background: #D9D9D9;
+}
+.osn{
+    height: 75vh;
+    display: flex;
+    justify-content: space-around;
+}
+.left, .right{
+    width: 33vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+aside{
+    height: 50%;
+    background: #78786F;
+}
+div{
+    height: 50%;
+    background: #828569;
+}
+section,article{
+    height:33vh ;
+    background: linear-gradient(0deg, #A5A5A3 0%, #A5A5A3 100%), linear-gradient(0deg, #979796 0%, #979796 100%), #979796;
+}
+nav{
+    height: 33vh;
+    background: linear-gradient(0deg, #BABAB9 0%, #BABAB9 100%), linear-gradient(0deg, #7F816A 0%, #7F816A 100%), #979796;
+}
+main{
+    width: 34vw;
+    background: #61615C;
+}
+footer{
+    height: 10vh;
+    background: #D9D9D9;
+}
